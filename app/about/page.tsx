@@ -21,21 +21,23 @@ export default function AboutPage() {
 					<motion.div variants={fadeIn('right', 0.3)} className="space-y-6">
 						<h1 className="text-4xl font-bold">About Me</h1>
 						<p className="text-lg text-muted-foreground">
-							I am a passionate engineering student with a focus on innovation and problem-solving.
-							My academic journey has equipped me with strong technical skills and a deep understanding
-							of engineering principles.
+							Hi, I'm Nick. I am an engineer working on developing HDL for the Large Hadron Collider (LHC), which I think is pretty neat.
+							My focus is around the digital design architecture level of abstraction, but I like to say I'm a super full-stack dev: from muons to neural nets.
+							I'm currently doing my best to fill in the gaps.
 						</p>
 						<div className="space-y-4">
 							<h2 className="text-2xl font-semibold">My Journey</h2>
 							<p className="text-muted-foreground">
-								Throughout my academic career, I've been involved in various projects that have
-								helped me develop practical skills and theoretical knowledge. I believe in
-								continuous learning and staying updated with the latest technological advancements.
+								I graduated from UCLA in 2024 majoring in Electrical Engineering and Physics, and a technical breadth in Computer Science.
+								I work for UCLA as an R&D Engineer in the Compact Muon Solenoid (CMS) experiment, part of the LHC. Specifically, I develop HDL for GEM ME0 trigger,
+								which requires ultra-low latency and high throughput algorithms to determine which events are interesting (~1kB per ~200 nanoseconds ~= 5TB/s throughput).
+								I also test PCBs and ASICs, and develop testing suites (physical teststands, equipment interfaces, and scripts), and developed a system to program old EEPROMs and FPGAs
+								from a Raspberry Pi backend via bitbanging (MCS file --> deployment; substitutes Vivado for unsupported devices).
 							</p>
 						</div>
 						<Button className="mt-6" asChild>
-							<a href="/cv.pdf" download>
-								Download CV <ArrowDownCircle className="ml-2 h-4 w-4" />
+							<a href="/resume.pdf" download>
+								Download Resume <ArrowDownCircle className="ml-2 h-4 w-4" />
 							</a>
 						</Button>
 					</motion.div>
@@ -62,8 +64,7 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Education</h3>
 								<p className="text-muted-foreground">
-									Currently pursuing a Bachelor's degree in Engineering with a focus on
-									practical applications and innovative solutions.
+									Electrical Engineering and Physics, UCLA 2024 (GPA 3.92)
 								</p>
 							</CardContent>
 						</Card>
@@ -74,8 +75,7 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Experience</h3>
 								<p className="text-muted-foreground">
-									Gained valuable experience through internships and projects, working
-									with cutting-edge technologies and methodologies.
+									3 years; 1 year R&D Engineer @ CERN, 1 year w/ research labs @ UCLA (CSL & PBPL), 1 year DAV w/ IEEE @ UCLA
 								</p>
 							</CardContent>
 						</Card>
@@ -86,8 +86,9 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Skills</h3>
 								<p className="text-muted-foreground">
-									Proficient in various engineering tools and technologies, with a strong
-									foundation in problem-solving and analytical thinking.
+									Systems/Lanuguages: VHDL, SystemVerilog, CocoTB, Python, C/C++, Linux<br></br>
+									Relevant Coursework: Computer Architecture, Digital Design, DNNs
+
 								</p>
 							</CardContent>
 						</Card>
