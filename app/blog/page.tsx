@@ -25,7 +25,7 @@ export default function BlogPage() {
 					>
 						<h1 className="text-4xl font-bold mb-4">Blog</h1>
 						<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-							Insights, experiences, and knowledge sharing from my engineering journey.
+							You found a secret page! Coming soon.
 						</p>
 					</motion.div>
 

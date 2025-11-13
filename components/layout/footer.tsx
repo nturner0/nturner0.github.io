@@ -33,13 +33,11 @@ export function Footer() {
 			links: [
 				{ title: 'Experience', href: '/experience' },
 				{ title: 'Projects', href: '/projects' },
-				{ title: 'Certificates', href: '/certificates' },
 			],
 		},
 		{
 			title: 'Connect',
 			links: [
-				{ title: 'Blog', href: '/blog' },
 				{ title: 'Contact', href: '/contact' },
 				{ title: 'Resume', href: '#', download: true },
 			],

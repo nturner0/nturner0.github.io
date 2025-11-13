@@ -12,14 +12,6 @@ export const siteConfig = {
 			href: '/about',
 		},
 		{
-			title: 'Education',
-			href: '/education',
-		},
-		{
-			title: 'Skills',
-			href: '/skills',
-		},
-		{
 			title: 'Experience',
 			href: '/experience',
 		},
@@ -28,17 +20,22 @@ export const siteConfig = {
 			href: '/projects',
 		},
 		{
-			title: 'Certificates',
-			href: '/certificates',
+			title: 'Education',
+			href: '/education',
 		},
 		{
-			title: 'Blog',
-			href: '/blog',
+			title: 'Skills',
+			href: '/skills',
 		},
 		{
 			title: 'Contact',
 			href: '/contact',
 		},
+		{
+			title: 'Blog',
+			href: '/blog',
+		},
+
 	],
 	links: {
 		github: 'https://github.com/yourusername',
@@ -64,30 +61,40 @@ export type Experience = {
 
 export const experiences: Experience[] = [
 	{
-		title: 'Engineering Intern',
-		company: 'Tech Company',
-		location: 'City, Country',
-		startDate: 'May 2023',
-		endDate: 'Aug 2023',
+		title: 'R&D Engineer I',
+		company: 'UCLA',
+		location: 'CERN, Switzerland',
+		startDate: 'Aug 2024',
+		endDate: 'Present',
 		description: [
-			'Worked on developing and testing software components for embedded systems',
-			'Collaborated with senior engineers on project planning and execution',
-			'Implemented test procedures for quality assurance',
+			'Developed HDL for trigger in CMS in the Large Hadron Collider',
+			'Lead several studies debugging custom PCBs, collaborating with experts to find solutions',
+			'Implemented an ecosystem to control EEPROMs via JTAG from RPI GPIO, retiring iMPACT',
 		],
-		technologies: ['C++', 'Python', 'MATLAB', 'Git'],
+		technologies: ['VHDL', 'cocotb', 'Python', 'Linux', 'Git', 'Oscilloscope'],
 	},
 	{
-		title: 'Research Assistant',
-		company: 'University Lab',
-		location: 'City, Country',
-		startDate: 'Jan 2023',
-		endDate: 'Apr 2023',
+		title: 'Undergraduate Researcher',
+		company: 'UCLA - Particle Beam Physics Laboratory',
+		location: 'Los Angeles, USA',
+		startDate: 'Jun 2023',
+		endDate: 'Sep 2023',
 		description: [
-			'Assisted in research focusing on advanced materials for mechanical applications',
-			'Conducted literature reviews and compiled research findings',
-			'Performed data analysis and visualization of experimental results',
+			'Designed and built a relay box to remotely switch current direction on multiple channels',
+			'Investigated methods to compare experimental results with an analytic undulator matrix',
 		],
-		technologies: ['MATLAB', 'CAD', 'Data Analysis', 'Python'],
+		technologies: ['MATLAB', 'LABVIEW', 'Python'],
+	},
+	{
+		title: 'Undergraduate Researcher',
+		company: 'UCLA - Communication Systems Laboratory',
+		location: 'Los Angeles, USA',
+		startDate: 'Jun 2022',
+		endDate: 'Aug 2022',
+		description: [
+			'Worked on implementing an efficient decoding algorithm in HDL (list Viterbi decoder, tail-biting convolutional codes)'
+		],
+		technologies: ['VHDL', 'Python'],
 	},
 ];
 
@@ -138,38 +145,25 @@ export type Education = {
 	startDate: string;
 	endDate: string;
 	gpa?: string;
-	achievements: string[];
+	// achievements: string[];
 };
 
 export const education: Education[] = [
 	{
-		degree: 'Bachelor of Science',
-		field: 'Mechanical Engineering',
-		institution: 'University Name',
-		location: 'City, Country',
+		degree: 'Bachelor of Science & Bachelor of Arts',
+		field: 'Electrical Engineering & Physics',
+		institution: 'University of California, Los Angeles',
+		location: 'Los Angeles, USA',
 		startDate: 'Sep 2020',
-		endDate: 'Present',
-		gpa: '3.8/4.0',
-		achievements: [
-			'Dean\'s List (All Semesters)',
-			'Academic Excellence Scholarship',
-			'Senior Design Project Award',
-		],
-	},
-	{
-		degree: 'High School Diploma',
-		field: 'Science and Mathematics',
-		institution: 'High School Name',
-		location: 'City, Country',
-		startDate: 'Sep 2016',
-		endDate: 'Jun 2020',
-		gpa: '4.0/4.0',
-		achievements: [
-			'Valedictorian',
-			'National Mathematics Competition Finalist',
-			'Science Fair Gold Medal',
-		],
-	},
+		endDate: 'Jun 2024',
+		gpa: '3.92',
+		// achievements: [
+		//   Examples:
+		// 	'Dean\'s List (All Quarters)',
+		// 	'Academic Excellence Scholarship',
+		// 	'Senior Design Project Award',
+		// ],
+	}
 ];
 
 export type Certificate = {
@@ -189,23 +183,7 @@ export const certificates: Certificate[] = [
 		id: 'CERT-12345',
 		url: '#',
 		pdf: '/certificates/sample.pdf',
-	},
-	{
-		title: 'CAD Design Specialist',
-		issuer: 'Autodesk',
-		date: 'Jun 2023',
-		id: 'CERT-67890',
-		url: '#',
-		pdf: '/certificates/sample.pdf',
-	},
-	{
-		title: 'Project Management Fundamentals',
-		issuer: 'Project Management Institute',
-		date: 'Mar 2023',
-		id: 'CERT-24680',
-		url: '#',
-		pdf: '/certificates/sample.pdf',
-	},
+	}
 ];
 
 export type Skill = {

@@ -54,18 +54,11 @@ export function HeroSection() {
 					animate="show"
 					className="max-w-3xl mx-auto text-center"
 				>
-					<motion.h2
-						variants={fadeIn('up', 0.2)}
-						className="text-3xl md:text-4xl font-bold mb-4 text-primary"
-					>
-						Computer Science Engineering
-					</motion.h2>
-
 					<motion.h1
 						variants={fadeIn('up', 0.3)}
 						className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight"
 					>
-						<span className="text-gradient">John Doe's</span> Portfolio
+						Nicholas Turner's<span className="text-gradient"> Portfolio</span>
 					</motion.h1>
 
 					<motion.p
@@ -86,7 +79,7 @@ export function HeroSection() {
 						</Button>
 						<Button size="lg" variant="outline" asChild>
 							<Link href="#" download>
-								Download CV <FileDown className="ml-2 h-4 w-4" />
+								Download Resume <FileDown className="ml-2 h-4 w-4" />
 							</Link>
 						</Button>
 					</motion.div>

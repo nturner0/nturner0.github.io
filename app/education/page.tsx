@@ -62,7 +62,7 @@ export default function EducationPage() {
 											</div>
 										</div>
 
-										<div className="mt-6">
+										{/* <div className="mt-6">
 											<h3 className="text-lg font-semibold mb-3">Achievements</h3>
 											<ul className="space-y-2">
 												{edu.achievements.map((achievement, i) => (
@@ -72,7 +72,7 @@ export default function EducationPage() {
 													</li>
 												))}
 											</ul>
-										</div>
+										</div> */}
 									</CardContent>
 								</Card>
 							</motion.div>

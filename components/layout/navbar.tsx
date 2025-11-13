@@ -51,18 +51,36 @@ export function Navbar() {
 							Portfolio
 						</motion.div>
 					</Link>
-					<nav className="hidden md:flex gap-6">
-						{siteConfig.mainNav.map((item) => (
-							<Link
-								key={item.href}
-								href={item.href}
-								className={`nav-link text-sm font-medium transition-colors hover:text-primary ${pathname === item.href ? 'text-primary active' : 'text-muted-foreground'
-									}`}
+				<nav className="hidden md:flex gap-6">
+				{siteConfig.mainNav.map((item) => {
+					const isActive = pathname === item.href
+					const isBlog = item.title === 'Blog'
+
+					if (isBlog) {
+						return (
+							<span
+							key={item.href}
+							className="nav-link text-sm font-medium text-gray-400 opacity-60 cursor-not-allowed"
 							>
-								{item.title}
-							</Link>
-						))}
-					</nav>
+							{item.title}
+							</span>
+						)
+					}
+
+					return (
+					<Link
+						key={item.href}
+						href={item.href}
+						className={`nav-link text-sm font-medium transition-colors hover:text-primary ${
+						isActive ? 'text-primary active' : 'text-muted-foreground'
+						}`}
+					>
+						{item.title}
+					</Link>
+					)
+				})}
+				</nav>
+
 				</div>
 
 				{/* Mobile menu */}
