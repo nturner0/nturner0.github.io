@@ -1,22 +1,6 @@
 <div align="center">
-
-# 🚀 Engineering Student Portfolio
-
-### *Next-Generation Portfolio Template for Tomorrow's Engineers*
-
-[![GitHub stars](https://img.shields.io/github/stars/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=yellow)](https://github.com/niladri-1/Engineering_Student_Portfolio/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=blue)](https://github.com/niladri-1/Engineering_Student_Portfolio/network)
-[![GitHub issues](https://img.shields.io/github/issues/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=red)](https://github.com/niladri-1/Engineering_Student_Portfolio/issues)
-[![License](https://img.shields.io/github/license/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=mit&color=green)](LICENSE)
-
-<br>
-
-*A sleek, responsive, and futuristic portfolio template crafted for engineering students to showcase their innovation, technical prowess, and groundbreaking projects. Built with cutting-edge web technologies for the digital age.*
-
-<br>
-
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-ff69b4?style=for-the-badge)](https://your-portfolio-demo.vercel.app)
-[![Documentation](https://img.shields.io/badge/📚_Documentation-Read_Now-blue?style=for-the-badge)](https://github.com/niladri-1/Engineering_Student_Portfolio/wiki)
+  
+# A website hosting my engineering portfolio. Built with cutting-edge web technologies for the digital age.
 
 </div>
 
@@ -111,20 +95,6 @@ engineer_portfolio/
 
 ```
 
-
----
-
-## 🚀 **Quick Start Guide**
-
-<div align="center">
-
-### **Prerequisites**
-![Node.js](https://img.shields.io/badge/Node.js-18.0+-339933?style=flat-square&logo=node.js&logoColor=white)
-![npm](https://img.shields.io/badge/npm-9.0+-CB3837?style=flat-square&logo=npm&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Latest-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
 ### **Installation Steps**
 
 ```bash
@@ -195,21 +165,6 @@ npm run dev
 
 ---
 
-## 🤝 **Contributing**
-
-<div align="center">
-
-We welcome contributions from the engineering community!
-
-[![Contributors](https://img.shields.io/github/contributors/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github)](https://github.com/niladri-1/Engineering_Student_Portfolio/graphs/contributors)
-[![Pull Requests](https://img.shields.io/github/issues-pr/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github)](https://github.com/niladri-1/Engineering_Student_Portfolio/pulls)
-
-[📋 Contributing Guidelines](CONTRIBUTING.md) • [🐛 Report Bug](https://github.com/niladri-1/Engineering_Student_Portfolio/issues/new?assignees=&labels=bug&template=bug_report.md) • [💡 Request Feature](https://github.com/niladri-1/Engineering_Student_Portfolio/issues/new?assignees=&labels=enhancement&template=feature_request.md)
-
-</div>
-
----
-
 ## 📄 **License**
 
 <div align="center">
@@ -222,28 +177,14 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 📞 **Contact & Connect**
+## **Credit (cloned website template)**:
 
 <div align="center">
 
 ### **Niladri Chatterjee**
 *Full Stack Developer & Engineering Student*
 
-<br>
-
-[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:code.niladri@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/niladri1)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://niladri1.vercel.app)
 [![GitHub](https://img.shields.io/badge/🐱_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/niladri-1)
 
-<br>
-
-*"Building the future, one line of code at a time"*
-
 ---
-
-⭐ **If this project helped you, please consider giving it a star!** ⭐
-
-[![Star this repo](https://img.shields.io/github/stars/niladri-1/Engineering_Student_Portfolio?style=social)](https://github.com/niladri-1/Engineering_Student_Portfolio)
-
 </div>
