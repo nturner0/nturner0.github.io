@@ -112,12 +112,12 @@ export function Navbar() {
 							</nav>
 							<div className="mt-auto pt-4">
 								<DropdownMenu>
-									<DropdownMenuTrigger asChild>
+									{/* <DropdownMenuTrigger asChild>
 										<Button variant="outline" className="w-full justify-between">
 											Social Links
 											<ChevronDown className="h-4 w-4 ml-2" />
 										</Button>
-									</DropdownMenuTrigger>
+									</DropdownMenuTrigger> */}
 									<DropdownMenuContent align="end">
 										<DropdownMenuItem asChild>
 											<Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
@@ -129,11 +129,11 @@ export function Navbar() {
 												LinkedIn
 											</Link>
 										</DropdownMenuItem>
-										<DropdownMenuItem asChild>
+										{/* <DropdownMenuItem asChild>
 											<Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
 												Twitter
 											</Link>
-										</DropdownMenuItem>
+										</DropdownMenuItem> */}
 									</DropdownMenuContent>
 								</DropdownMenu>
 							</div>
