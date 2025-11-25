@@ -32,7 +32,7 @@ export default function AboutPage() {
 								I work for UCLA as an R&D Engineer in the Compact Muon Solenoid (CMS) experiment, part of the LHC. Specifically, I develop HDL for GEM ME0 trigger,
 								which requires ultra-low latency and high throughput algorithms to determine which events are interesting (~1kB per ~200 nanoseconds ~= 5TB/s throughput).
 								I also test PCBs and ASICs, and develop testing suites (physical teststands, equipment interfaces, and scripts), and developed a system to program old EEPROMs and FPGAs
-								from a Raspberry Pi backend via bitbanging (MCS file --> deployment; substitutes Vivado for unsupported devices).
+								from a Raspberry Pi backend via bitbanging (MCS file ⟶ deployment; substitutes Vivado for unsupported devices).
 							</p>
 						</div>
 						<Button className="mt-6" asChild>
