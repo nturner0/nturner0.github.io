@@ -87,7 +87,7 @@ export default function AboutPage() {
 								<h3 className="text-xl font-semibold mb-4">Skills</h3>
 								<p className="text-muted-foreground">
 									Systems/Lanuguages: VHDL, SystemVerilog, CocoTB, Python, C/C++, Linux<br></br>
-									Relevant Coursework: Computer Architecture, Digital Design, DNNs
+									Relevant Coursework: Computer Architecture, Digital Design, Machine Learning, Deep Neural Networks, AI
 
 								</p>
 							</CardContent>

@@ -12,8 +12,8 @@ import { staggerContainer, fadeIn } from '@/lib/motion';
 
 export function SkillsPreview() {
 	// Filter top skills from each category (3 per category)
-	const topTechnicalSkills = skills
-		.filter(skill => skill.category === 'technical')
+	const topDigitalSkills = skills
+		.filter(skill => skill.category === 'digital design')
 		.sort((a, b) => b.level - a.level)
 		.slice(0, 3);
 
@@ -50,7 +50,7 @@ export function SkillsPreview() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-bold mb-4">Technical Expertise</h3>
 								<div className="space-y-4">
-									{topTechnicalSkills.map((skill, index) => (
+									{topDigitalSkills.map((skill, index) => (
 										<div key={index}>
 											<div className="flex justify-between mb-1">
 												<span>{skill.name}</span>

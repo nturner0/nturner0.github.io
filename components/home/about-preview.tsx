@@ -54,16 +54,17 @@ export function AboutPreview() {
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Education</h4>
-									<p className="text-sm text-muted-foreground">B.S. Mechanical Engineering</p>
+									<p className="text-sm text-muted-foreground">B.S. Electrical Engineering</p>
+									<p className="text-sm text-muted-foreground">B.A. Physics</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Experience</h4>
-									<p className="text-sm text-muted-foreground">3+ Years</p>
+									<p className="text-sm text-muted-foreground">2+ Years</p>
 								</CardContent>
 							</Card>
-							<Card className="card-gradient">
+							{/* <Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Projects</h4>
 									<p className="text-sm text-muted-foreground">10+ Completed</p>
@@ -74,7 +75,7 @@ export function AboutPreview() {
 									<h4 className="font-semibold">Awards</h4>
 									<p className="text-sm text-muted-foreground">5 Recognitions</p>
 								</CardContent>
-							</Card>
+							</Card> */}
 						</div>
 
 						<Button asChild>

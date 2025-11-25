@@ -38,14 +38,10 @@ export const siteConfig = {
 
 	],
 	links: {
-		github: 'https://github.com/yourusername',
-		linkedin: 'https://linkedin.com/in/yourusername',
-		twitter: 'https://twitter.com/yourusername',
-		facebook: 'https://facebook.com/yourusername',
-		instagram: 'https://instagram.com/yourusername',
-		whatsapp: 'https://wa.me/yourphonenumber',
-		email: 'mailto:youremail@example.com',
-		phone: 'tel:+1234567890',
+		github: 'https://github.com/nturner0',
+		linkedin: 'https://www.linkedin.com/in/nicholas-turner-9b60191ba/',
+		// email: 'nturner1@g.ucla.edu',
+		// phone: 'tel:+19167572710',
 	},
 };
 
@@ -109,31 +105,51 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Smart Home Automation System',
+		title: 'Segment Finder for CMS ME0 Trigger',
 		description:
-			'Designed and implemented a smart home automation system using IoT technologies to control lighting, temperature, and security features.',
+			'Low-latency muon track finding algoirthm implemented on an FPGA. Designed several stages of the algorithm, including a cross-partition deghoster, a BRAM ring buffer & windowing, an optimized bitonic sorting network, and out-of-time synchronization.',
 		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
-		tags: ['IoT', 'Arduino', 'C++', 'Mobile App'],
-		link: '#',
-		repo: '#',
+		tags: ['FPGA', 'VHDL', 'Python', 'cocotb'],
+		// link: '#',
+		repo: 'https://github.com/andrewpeck/me0sf/tree/SW_optimizations',
 	},
 	{
-		title: 'Structural Analysis Software',
+		title: 'ALCT Teststand Backend',
 		description:
-			'Developed software for structural analysis of beams and trusses using numerical methods and visualization techniques.',
+			'Developed software for JTAG programming and control of EEPROMs and FPGAs on custom boards. Utilized JTAG GPIO on a Raspberry Pi and custom TTL -> LVDS PCB to replace old system.',
 		image: 'https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg',
-		tags: ['MATLAB', 'Python', 'FEA', 'Structural Engineering'],
-		link: '#',
-		repo: '#',
+		tags: ['JTAG', 'Python', 'FPGA', "Raspberry Pi"],
+		// link: '#',
+		repo: 'https://gitlab.cern.ch/emu/alct_test_utils/-/tree/program_alct_from_rpi?ref_type=heads',
 	},
 	{
-		title: 'Renewable Energy Monitoring',
+		title: 'ME0 Hardware Testing and Debugging',
 		description:
-			'Created a system to monitor and analyze performance of solar panels and wind turbines for optimal energy production.',
+			'Lead several hardware debugging studies, including Optohybrids (serializer and optical converter), bPOLs (DC-DC converters), and readout boards. Built teststands and designed software to analyzes to determine severity of problems, and develop targeted solutions.',
 		image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg',
 		tags: ['Data Analysis', 'IoT', 'Renewable Energy', 'Visualization'],
-		link: '#',
-		repo: '#',
+	},
+
+];
+
+export const projects_personal: Project[] = [
+	{
+		title: 'Digital Audio Visualizer (DAV)',
+		description:
+		    'Implemented a 32 point FFT processor and VGA controller on an FPGA in SystemVerilog. Integrated several modules (microphone input, signal processing, VGA display output) into a functional system that displays the frequency decomposition of microphone input.',
+		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
+		tags: ['FPGA', 'SystemVerilog', 'FFT'],
+		// link: '#',
+		// repo: '#',
+	},
+	{
+		title: 'HydrateMate',
+		description:
+			'Built a system to track water consumption via microcontroller and ultrasonic sensor, paired via Bluetooth with a user-friendly web application.',
+		image: 'https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg',
+		tags: ['Arduino', 'C++'],
+		// link: '#',
+		// repo: '#',
 	},
 ];
 
@@ -189,36 +205,33 @@ export const certificates: Certificate[] = [
 export type Skill = {
 	name: string;
 	level: number; // 1-10
-	category: 'technical' | 'software' | 'soft' | 'language';
+	category: 'technical' | 'software' | 'soft' | 'digital design';
 };
 
 export const skills: Skill[] = [
-	// Technical Skills
-	{ name: 'Mechanical Design', level: 9, category: 'technical' },
-	{ name: 'Structural Analysis', level: 8, category: 'technical' },
-	{ name: 'Thermodynamics', level: 7, category: 'technical' },
-	{ name: 'Control Systems', level: 8, category: 'technical' },
-	{ name: 'Circuit Design', level: 6, category: 'technical' },
-
 	// Software Skills
-	{ name: 'MATLAB', level: 9, category: 'software' },
-	{ name: 'AutoCAD', level: 8, category: 'software' },
-	{ name: 'SolidWorks', level: 9, category: 'software' },
-	{ name: 'Python', level: 7, category: 'software' },
-	{ name: 'C++', level: 6, category: 'software' },
-	{ name: 'ANSYS', level: 8, category: 'software' },
+	{ name: 'C++', level: 8, category: 'software' },
+	{ name: 'Python', level: 8, category: 'software' },
+	{ name: 'VHDL', level: 8, category: 'software' },
+	{ name: 'SystemVerilog', level: 7, category: 'software' },
+	{ name: 'MATLAB', level: 7, category: 'software' },
+
+	// Digital Design Skills
+	{ name: 'Algorithm Design', level: 8, category: 'digital design' },
+	{ name: 'Timing Closure', level: 8, category: 'digital design' },
+	{ name: 'Verification', level: 8, category: 'digital design' },
 
 	// Soft Skills
-	{ name: 'Problem Solving', level: 9, category: 'soft' },
-	{ name: 'Team Leadership', level: 8, category: 'soft' },
-	{ name: 'Project Management', level: 7, category: 'soft' },
-	{ name: 'Technical Writing', level: 8, category: 'soft' },
-	{ name: 'Presentation', level: 7, category: 'soft' },
+	{ name: 'Problem Solving', level: 10, category: 'soft' },
+	{ name: 'Team Leadership', level: 9, category: 'soft' },
+	{ name: 'Project Management', level: 9, category: 'soft' },
+	{ name: 'Technical Writing', level: 9, category: 'soft' },
+	{ name: 'Presentation', level: 8, category: 'soft' },
 
-	// Languages
-	{ name: 'English', level: 10, category: 'language' },
-	{ name: 'Spanish', level: 6, category: 'language' },
-	{ name: 'French', level: 4, category: 'language' },
+	// Technical Skills
+	{ name: 'Soldering', level: 8, category: 'technical' },
+	{ name: 'CAD', level: 7, category: 'technical' },
+	{ name: 'Cable Work', level : 7, category: 'technical'}
 ];
 
 export type BlogPost = {

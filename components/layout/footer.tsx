@@ -9,14 +9,10 @@ export function Footer() {
 	const currentYear = new Date().getFullYear();
 
 	const socialLinks = [
-		{ icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
-		{ icon: <Mail className="h-5 w-5" />, href: siteConfig.links.email, label: 'Email' },
+		// { icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
+		// { icon: <Mail className="h-5 w-5" />, href: siteConfig.links.email, label: 'Email' },
 		{ icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
 		{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
-		{ icon: <MessageSquare className="h-5 w-5" />, href: siteConfig.links.whatsapp, label: 'WhatsApp' },
-		{ icon: <Twitter className="h-5 w-5" />, href: siteConfig.links.twitter, label: 'Twitter' },
-		{ icon: <Facebook className="h-5 w-5" />, href: siteConfig.links.facebook, label: 'Facebook' },
-		{ icon: <Instagram className="h-5 w-5" />, href: siteConfig.links.instagram, label: 'Instagram' },
 	];
 
 	const navColumns = [
@@ -39,7 +35,7 @@ export function Footer() {
 			title: 'Connect',
 			links: [
 				{ title: 'Contact', href: '/contact' },
-				{ title: 'Resume', href: '#', download: true },
+				{ title: 'Resume', href: '/Nicholas_Turner_Resume.pdf', download: true },
 			],
 		},
 	];
@@ -95,12 +91,12 @@ export function Footer() {
 						© {currentYear} Engineering Portfolio. All rights reserved.
 					</p>
 					<div className="mt-4 sm:mt-0 flex gap-4">
-						<Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
+						{/* <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
 							Privacy Policy
 						</Link>
 						<Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
 							Terms of Service
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</div>
