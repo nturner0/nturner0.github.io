@@ -64,7 +64,7 @@ export const experiences: Experience[] = [
 		endDate: 'Present',
 		description: [
 			'Developed HDL for trigger in CMS in the Large Hadron Collider',
-			'Lead several studies debugging custom PCBs, collaborating with experts to find solutions',
+			'Led several studies debugging custom PCBs, collaborating with experts to find solutions',
 			'Implemented an ecosystem to control EEPROMs via JTAG from RPI GPIO, retiring iMPACT',
 		],
 		technologies: ['VHDL', 'cocotb', 'Python', 'Linux', 'Git', 'Oscilloscope'],
@@ -125,9 +125,9 @@ export const projects: Project[] = [
 	{
 		title: 'ME0 Hardware Testing and Debugging',
 		description:
-			'Lead several hardware debugging studies, including Optohybrids (serializer and optical converter), bPOLs (DC-DC converters), and readout boards. Built teststands and designed software to analyzes to determine severity of problems, and develop targeted solutions.',
+			'Led several hardware debugging studies, including Optohybrids (serializer and optical converter), bPOLs (DC-DC converters), and readout boards. Built teststands and designed software to analyzes to determine severity of problems, and develop targeted solutions.',
 		image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg',
-		tags: ['Data Analysis', 'IoT', 'Renewable Energy', 'Visualization'],
+		tags: ['Oscilloscope', 'Hardware', 'Python', 'Automation', "Data Analysis"],
 	},
 
 ];

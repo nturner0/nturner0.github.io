@@ -37,7 +37,7 @@ export function ProjectsPreview() {
 							variants={fadeInScale(index * 0.1)}
 							className="flex"
 						>
-							<Card className="flex flex-col h-full card-gradient">
+							<Card className="flex flex-col h-full">
 								<div className="relative h-48 w-full">
 									<Image
 										src={project.image}
